@@ -1,0 +1,31 @@
+/* game.component.css */
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .info-component {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  /* .board-component {
+  } */
+  
+  .hand-component {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; /* Push the hand component to the bottom */
+  }
+  
+  .dev-component {
+    /* Add styles to position the DevComponent as desired */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
